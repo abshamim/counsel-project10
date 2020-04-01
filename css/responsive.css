@@ -1,0 +1,215 @@
+@media only screen and (max-width: 1199px){
+    html{
+        font-size: 48.5%;
+    }
+    
+}
+@media only screen and (max-width: 991px){
+    html{
+        font-size: 45.5%;
+    }
+}
+@media only screen and (max-width: 767px){
+    
+    .navigation .wrapper .nav_contents .logo{
+        display: block;
+        width: 100%;
+        line-height: 0;
+    }
+    .navigation .wrapper .nav_contents .logo img{
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+    .navigation .wrapper .nav_contents .menubar{
+        display: block;
+        margin: 1rem auto 0 auto;
+        float: none;
+        width: 100%;
+    }
+    .navigation .wrapper .nav_contents .menubar ul{
+        text-align: center;
+    }
+    .navigation .wrapper .nav_contents .menubar ul li a{
+        font-size: 1.6rem;
+    }
+    .banner .overlay .left{
+        right: 69%;
+    }
+    .banner .overlay .left img{
+        width: 42%;
+    }
+    .take_away .away_left{
+        padding-bottom: 3rem;
+    }
+    .take_away .away .away_left{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .take_away .away .away_left h2, .take_away .away .away_left h3, .take_away .away .away_left p{
+        padding-right: 0;
+    }
+    .take_away .away .away_right{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .global .global_class .global_left{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        height: 55rem;
+    }
+    .global .global_class .global_right{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .global .global_class .global_right h2{
+        padding-right: 0rem;
+        margin-left: 0rem;
+        padding-top: 0rem;
+    }
+    .global .global_class .global_right button{
+        margin-bottom: 5rem;
+    }
+    .global .global_class .global_right h3{
+        padding-right: 0;
+    }
+    .global .global_class .global_right p{
+        margin-left: 0;
+        padding-right: 0;
+    }
+    .global .global_class .global_left img{
+        width: 70%;
+    }
+    .business_part{
+        height: auto;
+    }
+    .business_part .business .business_left{
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    .business_part .business .business_right{
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    .service{
+        padding-bottom: 4rem;
+    }
+    .service .service_content{
+        grid-template-columns: auto auto;
+        justify-content: center;
+        grid-gap: 1rem;
+    }
+    .counter .counter_content{
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+    .Contact .Contact_content{
+        grid-template-columns: auto auto;
+        justify-content: center;
+        grid-gap: 1rem;
+    }
+    .footer_part{
+        height: auto;
+    }
+    .footer_part .footer{
+        display: block;
+    }
+    .footer_part .footer .footer_left{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .footer_part .footer .footer_right{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .Contact{
+        padding-bottom: 5rem;
+    }
+}
+@media only screen and (max-width: 575px){
+    .navigation .wrapper .nav_contents .logo img{
+        width: 45%;
+    }
+    .navigation .wrapper .nav_contents .menubar ul li a{
+        font-size: 1.3rem;
+    }
+    .banner .overlay .right img{
+        width: 85%;
+    }
+    .banner .overlay .left img{
+        width: 55%;
+    }
+    .banner{
+        height: 80vh;
+    }
+    .banner .overlay .left{
+        right: 67%;
+    }
+    .take_away .away .away_right .away_content .away_back .shape{
+        width: 40rem;
+        height: 28rem;
+    }
+    .take_away .away .away_right .away_content{
+        height: 42.5rem;
+    }
+    .global .global_class .global_left img{
+        width: 95%;
+    }
+    .global .global_class .global_left{
+        height: 50rem;
+    }
+    .business_part .business .business_left h2{
+        font-size: 1.6rem;
+    }
+    .service .service_content{
+        grid-template-columns: auto;
+        justify-content: center;
+        grid-gap: 2rem 0;
+    }
+    .counter .counter_content{
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+    .Contact .Contact_content{
+        grid-template-columns: auto;
+        justify-content: center;
+        grid-gap: 2rem 0;
+    }
+    .Contact{
+        padding-bottom: 5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

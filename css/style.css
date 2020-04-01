@@ -5,13 +5,17 @@
 a,ul,li,a:hover,a:focus{
     text-decoration: none;
     list-style: none;
+    outline: none;
 }
 h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
     margin-top: 0;
     margin-bottom: 0;
 }
+html{
+    font-size: 62.5%;
+}
 .wrapper{
-    width: 1140px;
+    width: 85%;
     height: auto;
     margin: 0 auto;
 }
@@ -21,31 +25,34 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
     position: absolute;
     top: 0;
     left: 0;
-    height: 75px;
-    margin-top: 10px;
-    z-index: 1000000000000;
+    height: 7.5rem;
+    margin-top: 1rem;
+    z-index: 9999;
     width: 100%;
 }
 .navigation .wrapper .nav_contents .logo{
-    line-height: 110px;
-    width: 20%;
+    line-height: 11rem;
+    width: 19%;
     display: inline-block;
 }
 .navigation .wrapper .nav_contents .menubar{
     width: 80%;
-    line-height: 75px;
-    float: right;
+    line-height: 7.5rem;
+    display: inline-block;
 }
 .navigation .wrapper .nav_contents .menubar ul{
     text-align: right;
 }
 .navigation .wrapper .nav_contents .menubar ul li{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 2rem;
+}
+.navigation .wrapper .nav_contents .menubar ul li:last-child{
+    margin-right: 0rem;
 }
 .navigation .wrapper .nav_contents .menubar ul li a{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #ffff;
     font-weight: 500;
     text-transform: uppercase;
@@ -89,56 +96,65 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
     right: 75%;
     text-align: right;
 }
+.banner .overlay .left img{
+    width: 28%;
+}
 .banner .overlay .right{
     float: right;
     width: 48%;
     clear: both;
 }
+.banner .overlay .right img{
+    width: 75%;
+}
 /* banner end */
 /* take away start */
-.take_away{
-    height: 525px;
+.take_away{}
+.take_away .away:after{
+    content: '';
+    display: block;
+    clear: both;
 }
 .take_away .away .away_left{
     float: left;
     width: 50%;
-    padding-top: 60px;
+    padding-top: 6rem;
     height: 100%;
 }
 .take_away .away .away_left h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    padding-right: 180px;
+    font-size: 2.5rem;
+    padding-right: 18rem;
     color: #002e5b;
     font-weight: 600;
     text-transform: uppercase;
 }
 .take_away .away .away_left h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    padding-right: 180px;
+    font-size: 1.6rem;
+    padding-right: 18rem;
     color: #666666;
     font-weight: 400;
-    margin: 25px 0;
+    margin: 2.5rem 0;
 }
 .take_away .away .away_left p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    padding-right: 20px;
+    font-size: 1.4rem;
+    padding-right: 2rem;
     color: #333333;
     font-weight: 400;
-    line-height: 22px;
-    margin-bottom: 40px;
+    line-height: 2.2rem;
+    margin-bottom: 4rem;
 }
 .take_away .away .away_left button{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #002e5b;
     background: #ffffff;
     outline: none;
     border: none;
-    border-bottom: 1px solid #002e5b;
-    padding-bottom: 5px;
+    border-bottom: .1rem solid #002e5b;
+    padding-bottom: .5rem;
     cursor: pointer;
     font-weight: 600;
     text-transform: uppercase;
@@ -146,7 +162,7 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
 }
 .take_away .away .away_left button:hover{
     color: #e7d334;
-    border-bottom: 1px solid #e7d334;
+    border-bottom: .1rrem solid #e7d334;
 }
 .take_away .away .away_right{
     float: right;
@@ -158,11 +174,11 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
     grid-template-columns: auto;
     justify-content: center;
     width: 100%;
-    height: 525px;
+    height: 52.5rem;
     position: relative;
 }
 .take_away .away .away_right .away_content .away_back{
-    width: 250px;
+    width: 25rem;
     height: 100%;
     margin: 0 auto;
     background: #fde52c;
@@ -174,21 +190,28 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 450px;
-    height: 300px;
+    width: 45rem;
+    height: 30rem;
     background: #a1a1a1;
+}
+.take_away .away .away_right .away_content .away_back .shape img{
+    width: 100%;
+    height: 100%;
 }
 /* take away end */
 /* global start */
 .global{
-    height: 620px;
     background: #f4f4f4;
 }
-.global .global_class{}
+.global .global_class:after{
+    content: '';
+    display: block;
+    clear: both;
+}
 .global .global_class .global_left{
     float: left;
     width: 50%;
-    height: 620px;
+    height: 62rem;
     position: relative;
 }
 .global .global_class .global_left img{
@@ -203,424 +226,281 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
 .global .global_class .global_right{
     float: right;
     width: 50%;
-    height: 620px;
 }
 .global .global_class .global_right h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    padding-right: 180px;
+    font-size: 2.5rem;
+    padding-right: 18rem;
     color: #002e5b;
     font-weight: 600;
     text-transform: uppercase;
-    margin-left: 20px;
-    padding-top: 80px;
+    margin-left: 2rem;
+    padding-top: 8rem;
 }
 .global .global_class .global_right h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    padding-right: 180px;
+    font-size: 1.6rem;
+    padding-right: 18rem;
     color: #666666;
     font-weight: 400;
-    margin: 25px 0;
-    margin-left: 20px;
+    margin: 2.5rem 0;
+    margin-left: 2rem;
 }
 .global .global_class .global_right p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    padding-right: 20px;
+    font-size: 1.4rem;
+    padding-right: 2rem;
     color: #333333;
     font-weight: 400;
-    line-height: 22px;
-    margin-bottom: 40px;
-    margin-left: 20px;
+    line-height: 2.2rem;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
 }
 .global .global_class .global_right button{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #002e5b;
     background: #f4f4f4;
     outline: none;
     border: none;
-    border-bottom: 1px solid #002e5b;
-    padding-bottom: 5px;
+    border-bottom: .1rem solid #002e5b;
+    padding-bottom: .5rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-left: 20px;
+    margin-left: 2rem;
     cursor: pointer;
     transition: all linear 0.3s;
 }
 .global .global_class .global_right button:hover{
     color: #e7d334;
-    border-bottom: 1px solid #e7d334;
+    border-bottom: .1rem solid #e7d334;
 }
 /* global end */
 /* business start */
 .business_part{
     width: 100%;
-    height: 60px;
     background: #002e5b;
 }
-.business_part .business{
-    display: flex;
-}
+.business_part .business{}
 .business_part .business .business_left{
-    width: 50%;
+    display: inline-block;
+    width: 49%;
     height: 100%;
-    line-height: 60px;
+    line-height: 6rem;
     text-align: left;
+    margin: auto;
 }
 .business_part .business .business_left h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #ffffff;
     font-weight: 400;
 }
 .business_part .business .business_right{
-    line-height: 60px;
-    width: 50%;
+    line-height: 6rem;
+    display: inline-block;
+    width: 49%;
     height: 100%;
     text-align: right;
+    margin: auto;
 }
 .business_part .business .business_right button{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #002e5b;
-    width: 110px;
-    height: 30px;
-    border-radius: 3px;
+    width: 11rem;
+    height: 3rem;
+    border-radius: .3rem;
     background: #fde428;
     outline: none;
     cursor: pointer;
-    border: 2px solid #fde428;
+    border: .2rem solid #fde428;
     font-weight: 600;
     transition: all linear 0.3s;
 }
 .business_part .business .business_right button:hover{
     background: none;
     color: #fde428;
-    border: 2px solid #fde428;
+    border: .2rem solid #fde428;
 }
 /* business end */
 /* service start */
 .service{
-    width: 100%;
-    height: 650px;
+    padding-bottom: 8rem;
 }
 .service .service_text{
     text-align: center;
 }
 .service .service_text h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    padding-top: 70px;
+    font-size: 2.5rem;
+    padding-top: 6rem;
     color: #002e5b;
     font-weight: 600;
     text-transform: uppercase;
 }
 .service .service_text p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
     color: #666666;
     font-weight: 400;
 }
 .service .service_content{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 0 30px;
-    height: 430px;
+    grid-gap: 0 3rem;
     justify-content: space-between;
 }
 .service .service_content .content_item{
     background: #a74444;
 }
+.service .service_content .content_one, .service .service_content .content_two, .service .service_content .content_three{
+    height: 40rem;
+}
 .service .service_content .content_one .service_shape{
     width: 100%;
-    height: 190px;
-    background: #69d2e7;
+    height: 19rem;
+}
+.service .service_content .content_three .service_shape img, .service .service_content .content_one .service_shape img, .service .service_content .content_two .service_shape img {
+    width: 100%;
+    height: 100%;
 }
 .service .service_content .content_one h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    padding: 30px 0 20px 0;
+    font-size: 1.8rem;
+    padding: 3rem 0 2rem 0;
     color: #002e5b;
     font-weight: 600;
     text-transform: uppercase;
 }
 .service .service_content .content_one p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #333333;
     font-weight: 400;
-    line-height: 23px;
-    padding-right: 40px;
+    line-height: 2.3rem;
+    padding-right: 4rem;
 }
 .service .service_content .content_two .service_shape{
     width: 100%;
-    height: 190px;
-    background: #add478;
+    height: 19rem;
 }
 .service .service_content .content_two h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    padding: 30px 0 20px 0;
+    font-size: 1.8rem;
+    padding: 3rem 0 2rem 0;
     color: #002e5b;
     font-weight: 600;
     text-transform: uppercase;
 } 
 .service .service_content .content_two p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #333333;
     font-weight: 400;
-    line-height: 23px;
-    padding-right: 40px;
+    line-height: 2.3rem;
+    padding-right: 4rem;
 }
 .service .service_content .content_three .service_shape{
     width: 100%;
-    height: 190px;
-    background: #f49f77;
+    height: 19rem;
 }
 .service .service_content .content_three h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    padding: 30px 0 20px 0;
+    font-size: 1.8rem;
+    padding: 3rem 0 2rem 0;
     color: #002e5b;
     font-weight: 600;
     text-transform: uppercase;
 } 
 .service .service_content .content_three p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #333333;
     font-weight: 400;
-    line-height: 23px;
-    padding-right: 30px;
+    line-height: 2.3rem;
+    padding-right: 4rem;
 }
 /* service end */
 /* counter start */
 .counter{
     width: 100%;
-    height: 240px;
     background: #002e5b;
 }
 .counter .counter_content{
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-around;
-    grid-gap: 0 50px;
+    grid-gap: 0 5rem;
     text-align: center;
 }
 .counter .counter_content .counter_item{
-    width: 200px;
+    width: 20rem;
     height: auto;
-    padding-top: 40%;
+    padding: 40% 0;
 }
 .counter .counter_content .counter_item h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 38px;
+    font-size: 3.8rem;
     color: #ffffff;
     font-weight: 400;
-    letter-spacing: 5px;
+    letter-spacing: .5rem;
 }
 .counter .counter_content .counter_item p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    margin-top: 10px;
+    font-size: 1rem;
+    margin-top: 1rem;
     color: #ffffff;
     font-weight: 400;
     text-transform: uppercase;
 }
 /* counter end */
-/* office start */
-.office_part{
-    height: 525px;
-}
-.office_part .office .office_left{
-    float: left;
-    width: 50%;
-    height: 100%;
-}
-.office_part .office .office_left .office_content{
-    display: grid;
-    grid-template-columns: auto;
-    justify-content: center;
-    width: 100%;
-    height: 525px;
-    position: relative;
-}
-.office_part .office .office_left .office_content .office_back{
-    width: 250px;
-    height: 100%;
-    margin: 0 auto;
-    background: #fde52c;
-}
-.office_part .office .office_left .office_content .office_back .office_shape{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 450px;
-    height: 300px;
-    background: #002e5b;
-}
-.office_part .office .office_left .office_content .office_back .office_shape .shape_two{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 8px solid #33587c;
-    transition: all linear 0.3s;
-    background: #ffffff;
-    cursor: pointer;
-}
-.office_part .office .office_left .office_content .office_back .office_shape:hover .shape_two{
-    border: 8px solid #fde52c;
-    background: #beb5b5;
-}
-.office_part .office .office_left .office_content .office_back .office_shape i{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 15px;
-}
-.office_part .office .office_right{
-    float: right;
-    width: 50%;
-    padding-top: 100px;
-    height: 100%;
-}
-.office_part .office .office_right h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    padding-right: 180px;
-    color: #002e5b;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.office_part .office .office_right h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    padding-right: 180px;
-    color: #666666;
-    font-weight: 400;
-    margin: 25px 0;
-}
-.office_part .office .office_right p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    padding-right: 20px;
-    color: #333333;
-    font-weight: 400;
-    line-height: 22px;
-    margin-bottom: 40px;
-}
-.office_part .office .office_right button{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    color: #002e5b;
-    background: #ffffff;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    border-bottom: 1px solid #002e5b;
-    padding-bottom: 5px;
-    transition: all linear 0.3s;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.office_part .office .office_right button:hover{
-    color: #e7d334;
-    border-bottom: 1px solid #e7d334;
-}
-/* office end */
-/* comment start */
-.comment_part{
-    width: 100%;
-    height: 400px;
-    background: #002e5b;
-    text-align: center;
-    position: relative;
-}
-.comment_part .comment{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 50%;
-}
-.comment_part .comment h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    padding-top: 80px;
-    color: #ffffff;
-}
-.comment_part .comment p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #ffffff;
-    line-height: 28px;
-    padding-bottom: 50px;
-}
-.comment_part .comment h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: #ffffff;
-}
-/* comment end */
 /* Contact start */
 .Contact{
-    width: 100%;
-    height: auto;
-    margin-bottom: 100px;
+    padding-bottom: 8rem;
 }
 .Contact .Contact_text{
     text-align: center;
 }
 .Contact .Contact_text h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    padding-top: 70px;
+    font-size: 2.5rem;
+    padding-top: 6rem;
     color: #002e5b;
     font-weight: 600;
     text-transform: uppercase;
 }
 .Contact .Contact_text p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
     color: #666666;
     font-weight: 400;
 }
 .Contact .Contact_content{
     display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-gap: 0 40px;
-    height: 450px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0 4rem;
     justify-content: space-around;
 }
 .Contact .Contact_content .content_one, .Contact .Contact_content .content_two, .Contact .Contact_content .content_three{
-    box-shadow: 0px 0px 20px #d9d6d6;
+    box-shadow: 0 0 2rem #d9d6d6;
+    height: 45rem;
 }
 .Contact .Contact_content .content_one i, .Contact .Contact_content .content_two i, .Contact .Contact_content .content_three i{
-    padding-left: 30px;
+    padding-left: 3rem;
     display: block;
 }
 .Contact .Contact_content .content_one .Contact_shape{
     width: 100%;
-    height: 230px;
+    height: 23rem;
+}
+.Contact .Contact_content .content_one .Contact_shape iframe, .Contact .Contact_content .content_two .Contact_shape iframe, .Contact .Contact_content .content_three .Contact_shape iframe{
+    width: 100%;
+    height: 100%;
 }
 .Contact .Contact_content .content_one .Contact_shape img{
     width: 100%;
@@ -628,26 +508,26 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
 }
 .Contact .Contact_content .content_one h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    padding: 30px 0 20px 0;
+    font-size: 1.8rem;
+    padding: 3rem 0 2rem 0;
     color: #002e5b;
     font-weight: 600;
     text-transform: uppercase;
-    padding-left: 30px;
+    padding-left: 3rem;
 }
 .Contact .Contact_content .content_one p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #333333;
     font-weight: 400;
-    line-height: 23px;
-    padding-right: 30px;
+    line-height: 2.3rem;
+    padding-right: 3rem;
     text-align: justify;
-    padding-left: 30px;
+    padding-left: 3rem;
 }
 .Contact .Contact_content .content_two .Contact_shape{
     width: 100%;
-    height: 230px;
+    height: 23rem;
 }
 .Contact .Contact_content .content_two .Contact_shape img{
     width: 100%;
@@ -655,26 +535,26 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
 }
 .Contact .Contact_content .content_two h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    padding: 30px 0 20px 0;
+    font-size: 1.8rem;
+    padding: 3rem 0 2rem 0;
     color: #002e5b;
     font-weight: 600;
     text-transform: uppercase;
-    padding-left: 30px;
+    padding-left: 3rem;
 } 
 .Contact .Contact_content .content_two p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #333333;
     font-weight: 400;
-    line-height: 23px;
-    padding-right: 30px;
+    line-height: 2.3rem;
+    padding-right: 3rem;
     text-align: justify;
-    padding-left: 30px;
+    padding-left: 3rem;
 }
 .Contact .Contact_content .content_three .Contact_shape{
     width: 100%;
-    height: 230px;
+    height: 23rem;
 }
 .Contact .Contact_content .content_three .Contact_shape img{
     width: 100%;
@@ -682,27 +562,26 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
 }
 .Contact .Contact_content .content_three h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    padding: 30px 0 20px 0;
+    font-size: 1.8rem;
+    padding: 3rem 0 2rem 0;
     color: #002e5b;
     font-weight: 600;
     text-transform: uppercase;
-    padding-left: 30px;
+    padding-left: 3rem;
 } 
 .Contact .Contact_content .content_three p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #333333;
     font-weight: 400;
-    line-height: 23px;
-    padding-right: 30px;
-    padding-left: 30px;
+    line-height: 2.3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
 }
 /* Contact end */
 /* footer start */
 .footer_part{
     width: 100%;
-    height: 60px;
     background: #002e5b;
 }
 .footer_part .footer{
@@ -711,12 +590,12 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
 .footer_part .footer .footer_left{
     width: 50%;
     height: 100%;
-    line-height: 60px;
+    line-height: 6rem;
     text-align: left;
 }
 .footer_part .footer .footer_left h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #ffffff;
     font-weight: 600;
 }
@@ -724,23 +603,23 @@ h1,h2,h3,h4,h5,h6,p,ol,ul,li,figure,figcaption,address{
     color: #e7d334;
 }
 .footer_part .footer .footer_right{
-    line-height: 60px;
+    line-height: 6rem;
     width: 50%;
     height: 100%;
     text-align: right;
 }
 .footer_part .footer .footer_right a i{
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #ffffff;
     outline: none;
     font-weight: 400;
-    padding-right: 5px;
+    padding-right: .5rem;
     transition: all linear 0.3s;
 }
 .footer_part .footer .footer_right a:last-child i{
-    padding-right: 0px;
+    padding-right: 0rem;
 }
 .footer_part .footer .footer_right a i:hover{
     color: #e7d334;
 }
-/* contact end */
+/* footer end */
