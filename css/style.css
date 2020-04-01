@@ -613,7 +613,7 @@ html{
     color: #ffffff;
     outline: none;
     font-weight: 400;
-    padding-right: .5rem;
+    padding-right: .8rem;
     transition: all linear 0.3s;
 }
 .footer_part .footer .footer_right a:last-child i{
