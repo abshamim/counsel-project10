@@ -116,7 +116,7 @@
     }
     .counter .counter_content{
         grid-template-columns: auto auto;
-        justify-content: center;
+        justify-content: space-around;
     }
     .Contact .Contact_content{
         grid-template-columns: auto auto;
@@ -165,14 +165,14 @@
         right: 67%;
     }
     .take_away .away .away_right .away_content .away_back .shape{
-        width: 35rem;
-        height: 25rem;
+        width: 40rem;
+        height: 28rem;
     }
     .take_away .away .away_right .away_content{
-        height: 42.5rem;
+        height: 55.5rem;
     }
     .global .global_class .global_left img{
-        width: 95%;
+        width: 90%;
     }
     .global .global_class .global_left{
         height: 50rem;
@@ -187,7 +187,7 @@
     }
     .counter .counter_content{
         grid-template-columns: auto auto;
-        justify-content: center;
+        justify-content: space-around;
     }
     .Contact .Contact_content{
         grid-template-columns: auto;
@@ -198,18 +198,3 @@
         padding-bottom: 5rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
