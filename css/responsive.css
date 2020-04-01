@@ -116,7 +116,7 @@
     }
     .counter .counter_content{
         grid-template-columns: auto auto;
-        justify-content: space-around;
+        justify-content: center;
     }
     .Contact .Contact_content{
         grid-template-columns: auto auto;
@@ -188,7 +188,7 @@
     }
     .counter .counter_content{
         grid-template-columns: auto auto;
-        justify-content: space-around;
+        justify-content: center;
     }
     .Contact .Contact_content{
         grid-template-columns: auto;
