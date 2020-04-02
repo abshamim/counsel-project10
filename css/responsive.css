@@ -43,6 +43,9 @@
     .banner .overlay .left img{
         width: 42%;
     }
+    .banner .overlay .bnr_cnt{
+        width: 90%;
+    }
     .take_away .away_left{
         padding-bottom: 3rem;
     }
@@ -165,6 +168,9 @@
     }
     .banner .overlay .left img{
         width: 55%;
+    }
+    .banner .overlay .bnr_cnt{
+        width: 90%;
     }
     .banner{
         height: 100vh;
