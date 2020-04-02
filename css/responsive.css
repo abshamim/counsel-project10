@@ -198,7 +198,8 @@
     }
     .counter .counter_content{
         grid-template-columns: auto auto;
-        justify-content: space-around;
+        justify-content: center;
+        grid-gap: 0 0;
     }
     .Contact .Contact_content{
         grid-template-columns: auto;
