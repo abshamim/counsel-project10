@@ -66,8 +66,8 @@
         margin: auto;
     }
     .take_away .away .away_right .away_content .away_back .shape{
-        width: 65%;
-        height: 60%;
+        width: 80%;
+        height: 70%;
     }
     .global .global_class .global_left{
         float: none;
@@ -190,14 +190,14 @@
         right: 67%;
     }
     .take_away .away .away_right .away_content .away_back .shape{
-        width: 90%;
-        height: 50%;
+        width: 100%;
+        height: 60%;
     }
     .take_away .away .away_right .away_content{
         height: 55.5rem;
     }
     .take_away .away .away_right .away_content .away_back{
-        width: 20rem;
+        width: 25rem;
     }
     .global .global_class .global_left img{
         width: 90%;
