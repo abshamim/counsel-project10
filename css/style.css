@@ -280,12 +280,13 @@ html{
     width: 100%;
     background: #002e5b;
 }
-.business_part .business{}
+.business_part .business{
+    padding: 2rem 0;
+}
 .business_part .business .business_left{
     display: inline-block;
     width: 49%;
     height: 100%;
-    line-height: 6rem;
     text-align: left;
     margin: auto;
 }
@@ -296,7 +297,6 @@ html{
     font-weight: 400;
 }
 .business_part .business .business_right{
-    line-height: 6rem;
     display: inline-block;
     width: 49%;
     height: 100%;
@@ -349,7 +349,7 @@ html{
 .service .service_content{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 0 3rem;
+    grid-column-gap: 3rem;
     justify-content: space-between;
 }
 .service .service_content .content_item{
@@ -432,7 +432,7 @@ html{
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-around;
-    grid-gap: 0 5rem;
+    grid-column-gap: 5rem;
     text-align: center;
 }
 .counter .counter_content .counter_item{
@@ -482,7 +482,7 @@ html{
 .Contact .Contact_content{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 0 4rem;
+    grid-column-gap: 4rem;
     justify-content: space-around;
 }
 .Contact .Contact_content .content_one, .Contact .Contact_content .content_two, .Contact .Contact_content .content_three{
@@ -585,11 +585,11 @@ html{
 }
 .footer_part .footer{
     display: flex;
+    padding: 2rem 0;
 }
 .footer_part .footer .footer_left{
     width: 50%;
     height: 100%;
-    line-height: 6rem;
     text-align: left;
 }
 .footer_part .footer .footer_left h2{
@@ -602,7 +602,6 @@ html{
     color: #e7d334;
 }
 .footer_part .footer .footer_right{
-    line-height: 6rem;
     width: 50%;
     height: 100%;
     text-align: right;
