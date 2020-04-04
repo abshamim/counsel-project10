@@ -179,8 +179,8 @@
         right: 67%;
     }
     .take_away .away .away_right .away_content .away_back .shape{
-        width: 90%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
     }
     .take_away .away .away_right .away_content{
         height: 55.5rem;
